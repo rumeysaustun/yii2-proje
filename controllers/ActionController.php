@@ -1,8 +1,8 @@
 <?php
-namespace pistol88\hospital\controllers;
+namespace rumeysaustun\hospital\controllers;
 
-use pistol88\hospital\models\ActionForm;
-use pistol88\hospital\models\ActionSearch;
+use rumeysaustun\hospital\models\ActionForm;
+use rumeysaustun\hospital\models\ActionSearch;
 use yii;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
