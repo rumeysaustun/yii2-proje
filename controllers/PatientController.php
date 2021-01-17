@@ -1,13 +1,13 @@
 <?php
-namespace pistol88\hospital\controllers;
+namespace rumeysaustun\hospital\controllers;
 
-use pistol88\hospital\models\ActionForm;
+use rumeysaustun\hospital\models\ActionForm;
 use yii;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
-use pistol88\hospital\models\PatientForm;
-use pistol88\hospital\models\PatientSearch;
+use rumeysaustun\hospital\models\PatientForm;
+use rumeysaustun\hospital\models\PatientSearch;
 
 class PatientController extends Controller
 {
