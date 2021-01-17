@@ -12,9 +12,9 @@ Kurulum (Installation)
 
 Proje kök klasöründe çalıştırın:
 
-''
+'''
 php composer rumeysaustun / yii2-hospital "@dev" gerektirir
-''
+'''
 
 ''
 php yii migrate / up --migrationPath = vendor / rumeysaustun / yii2-hospital / migrations
