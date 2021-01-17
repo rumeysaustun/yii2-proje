@@ -1,9 +1,9 @@
 <?php
-namespace pistol88\hospital\widgets;
+namespace rumeysaustun\hospital\widgets;
 
 use yii\base\Widget;
-use pistol88\hospital\models\DoctorForm as Model;
-use pistol88\hospital\traits\Module;
+use rumeysaustun\hospital\models\DoctorForm as Model;
+use rumeysaustun\hospital\traits\Module;
 
 class DoctorForm extends Widget
 {
