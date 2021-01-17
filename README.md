@@ -8,6 +8,50 @@ Yii2-hastane
 
 Bu modül, hastane sitesi için birkaç widget sağlar. Bu projede, doktor ve hastayı birbirine bağlayan formlu tek bir widget vardır.
 
+Sanal Makine (Vagrant)
+--------------------------------
+
+Sırasıyla aşağıdaki yazılımlar kurulmalı ve github token üretilmelidir.
+1.[Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+2.[Vagrant](https://www.vagrantup.com/downloads)
+3.[Git](https://www.git-scm.com/)
+4.[GitHub API token] Generate new token'a tıklayarak yeni bir token oluşturulmalıdır.(https://github.com/settings/tokens)
+5.[Composer](https://getcomposer.org/)
+6.Yönetici yetkileriyle terminal (komut satırı) açılarak aşağıdaki direktifler uygulanmalıdır.
+```
+vagrant plugin install vagrant-hostmanager
+```
+7.vagrant-local.example.yml dosyasının vagrant-local.yml adıyla kopyası oluşturulmalıdır.
+8.GitHub api tokenı vagrant-local.yml dosyasında aşağıdaki şekilde tanımlanmalıdır.
+```
+github_token: kopyalanan_token
+```
+9.Vagrant makina çalıştırılarak kurulum başlatlır. Komut portal dizininin içinde çalıştırılmalıdır.
+```
+vagrant up
+```
+10.Terminal'den (komut satırı) sanal makinaya SSH erişimi için;
+```
+vagrant ssh
+```
+11.İstenilen dizine gitmek için;
+```
+cd /vagrant/
+```
+
+Kurulum (Installation)
+---------------------------------
+
+Proje kök klasöründe composer aracılığıyla çalıştırın:
+
+```
+composer require rumeysaustun/yii2-hospital "dev-main"
+```
+
+```
+php yii migrate / up --migrationPath = vendor / rumeysaustun / yii2-hospital / migrations
+```
+
 Kurulum (Installation)
 ---------------------------------
 
