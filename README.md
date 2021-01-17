@@ -2,11 +2,7 @@
 Rumeysa ÜSTÜN   190202011
 Büşra Nur BAYSA 190202091
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
+
 Yii2-hastane
 ==========
 
@@ -17,25 +13,25 @@ Kurulum (Installation)
 
 Proje kök klasöründe çalıştırın:
 
-'''
+```
 php composer rumeysaustun / yii2-hospital "@dev" gerektirir
-'''
+```
 
-''
+```
 php yii migrate / up --migrationPath = vendor / rumeysaustun / yii2-hospital / migrations
-''
+```
 
 Yapılandırma (Config)
 ---------------------------------
 
 Ve bunu config'in modüller bölümüne ekleyin:
 
-''
+```
     'hospital' => [
         'class' => 'rumeysaustun\hospital\Module',
         'adminRoles' => ['@'],
     ],
-''
+```
 
 '@' olarak ayarlanırsa, yalnızca oturum açmış kullanıcılar bu modülü kullanabilir;
 
@@ -67,22 +63,22 @@ Widget'lar
 
 Doktor formu widget'ını kullanabilirsiniz:
 
-''
+```
 <? = rumeysaustun \ hospital \ widgets \ DoctorForm :: widget (['pjax' => true]); ?>
-''
+```
 
 
 Hasta formu widget'ını kullanabilirsiniz:
 
-''
+```
 <? = rumeysaustun \ hospital \ widgets \ PatientForm :: widget (['pjax' => true]); ?>
-''
+```
 
 Eylem (action) formu widget'ını kullanabilirsiniz (hasta modelini parametrelere göndermeniz gerekir):
 
-''
+```
 <? = rumeysaustun \ hospital \ widgets \ ActionForm :: widget ([
     'pjax' => true,
     'patient' => rumeysaustun \ hospital \ models \ PatientForm :: findOne (1),
 ]); ?>
-''
+```
