@@ -21,7 +21,7 @@ $this->title = Yii::t('hospital', 'Actions List');
         ],
         [
             'attribute' => 'doctor_id',
-            'filter' => \pistol88\hospital\models\DoctorForm::map(),
+            'filter' => \rumeysaustun\hospital\models\DoctorForm::map(),
             'value' => function($model) {
                 if ($doctor = $model->doctor) {
                     return $doctor->name;
@@ -30,7 +30,7 @@ $this->title = Yii::t('hospital', 'Actions List');
         ],
         [
             'attribute' => 'patient_id',
-            'filter' => \pistol88\hospital\models\PatientForm::map(),
+            'filter' => \rumeysaustun\hospital\models\PatientForm::map(),
             'value' => function($model) {
                 if ($patient = $model->patient) {
                     return $patient->name . ' ' . $patient->family;
