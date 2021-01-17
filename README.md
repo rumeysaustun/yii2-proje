@@ -13,10 +13,10 @@ Sanal Makine (Vagrant)
 
 Sırasıyla aşağıdaki yazılımlar kurulmalı ve github token üretilmelidir.
 1.[Virtualbox](https://www.virtualbox.org/wiki/Downloads)
-2.[Vagrant](https://www.vagrantup.com/downloads)
-3.[Git](https://www.git-scm.com/)
-4.[GitHub API token] Generate new token'a tıklayarak yeni bir token oluşturulmalıdır.(https://github.com/settings/tokens)
-5.[Composer](https://getcomposer.org/)
+2.[Vagrant](https://www.vagrantup.com/downloads)<br>
+3.[Git](https://www.git-scm.com/)<br>
+4.[GitHub API token] Generate new token'a tıklayarak yeni bir token oluşturulmalıdır.(https://github.com/settings/tokens)<br>
+5.[Composer](https://getcomposer.org/)<br>
 6.Yönetici yetkileriyle terminal (komut satırı) açılarak aşağıdaki direktifler uygulanmalıdır.
 ```
 vagrant plugin install vagrant-hostmanager
