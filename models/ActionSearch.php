@@ -1,5 +1,5 @@
 <?php
-namespace pistol88\hospital\models;
+namespace rumeysaustun\hospital\models;
 
 use yii;
 use yii\data\ActiveDataProvider;
