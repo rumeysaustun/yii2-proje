@@ -17,7 +17,7 @@ if($pjax) Pjax::begin(['id' => 'action-form-pjax']);
         'options' => ['data-pjax' => true]
     ]); ?>
     <?= $form->field($model, 'patient_id')->hiddenInput(['value' => $patient->id])->label(false) ?>
-    <?= $form->field($model, 'doctor_id')->dropDownList(\pistol88\hospital\models\DoctorForm::map(), ['autofocus' => true]) ?>
+    <?= $form->field($model, 'doctor_id')->dropDownList(\rumeysaustun\hospital\models\DoctorForm::map(), ['autofocus' => true]) ?>
     <?= $form->field($model, 'action')->textarea() ?>
     <?= $form->field($model, 'recipe')->textarea() ?>
     <?= $form->field($model, 'date')->textInput(['type' => 'date']) ?>
