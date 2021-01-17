@@ -1,5 +1,5 @@
 <?php
-namespace pistol88\hospital;
+namespace rumeysaustun\hospital;
 
 class Module extends \yii\base\Module
 {
