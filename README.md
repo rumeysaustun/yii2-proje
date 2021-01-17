@@ -2,6 +2,11 @@
 Rumeysa ÜSTÜN   190202011
 Büşra Nur BAYSA 190202091
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 Yii2-hastane
 ==========
 
