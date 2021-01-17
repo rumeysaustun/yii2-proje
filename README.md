@@ -11,11 +11,11 @@ Bu modül, hastane sitesi için birkaç widget sağlar. Bu projede, doktor ve ha
 Sanal Makine (Vagrant)
 --------------------------------
 
-Sırasıyla aşağıdaki yazılımlar kurulmalı ve github token üretilmelidir.
-1.[Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+Sırasıyla aşağıdaki yazılımlar kurulmalı ve github token üretilmelidir.<br>
+1.[Virtualbox](https://www.virtualbox.org/wiki/Downloads)<br>
 2.[Vagrant](https://www.vagrantup.com/downloads)<br>
 3.[Git](https://www.git-scm.com/)<br>
-4.[GitHub API token] Generate new token'a tıklayarak yeni bir token oluşturulmalıdır.(https://github.com/settings/tokens)<br>
+4.[GitHub API token](https://github.com/settings/tokens) Generate new token'a tıklayarak yeni bir token oluşturulmalıdır.<br>
 5.[Composer](https://getcomposer.org/)<br>
 6.Yönetici yetkileriyle terminal (komut satırı) açılarak aşağıdaki direktifler uygulanmalıdır.
 ```
