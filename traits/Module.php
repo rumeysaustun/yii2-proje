@@ -1,5 +1,5 @@
 <?php
-namespace pistol88\hospital\traits;
+namespace rumeysaustun\hospital\traits;
 
 use yii;
 
