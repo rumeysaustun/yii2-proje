@@ -53,7 +53,18 @@ localhost/advanced2/backend/web/index.php?r=hospital/doctor/index
 ```
 Resimler
 ---------------------------------
-![alt Yeni hasta kaydı:](<a href="https://resimlink.com/OEd2" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/OEd2.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>)
+Yeni hasta kaydı:
+<a href="https://resimlink.com/OEd2" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/OEd2.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
+Hasta listesi:
+<a href="https://resimlink.com/jxdZ1Ga" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/jxdZ1Ga.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
+Hasta listesinde arama yapmak:
+<a href="https://resimlink.com/gBcvEum" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/gBcvEum.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
+Doktor ekleme:
+<a href="https://resimlink.com/ifo9" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/ifo9.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
+İşlem yapma:
+<a href="https://resimlink.com/OcwY" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/OcwY.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
+İşlem listesi:
+<a href="https://resimlink.com/5Lh0F" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/5Lh0F.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
 
 Ekler
 ---------------------------------
