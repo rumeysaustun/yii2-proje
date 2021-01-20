@@ -11,7 +11,7 @@ Bu modül, hastane sitesi için birkaç widget sağlar. Bu projede, doktor ve ha
 Kurulumlar
 --------------------------------
 
-Sırasıyla aşağıdaki yazılımlar kurulmalı ve github token üretilmelidir.<br>
+Sırasıyla aşağıdaki yazılımlar kurulmalıdır.<br>
 1.[Virtualbox](https://www.virtualbox.org/wiki/Downloads)<br>
 2.[XAMPP](https://www.apachefriends.org/tr/download.html)(7.3.26 sürümü kullanılmıştır.)<br>
 3.[Git](https://www.git-scm.com/)<br>
