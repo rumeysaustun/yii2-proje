@@ -53,7 +53,7 @@ localhost/advanced2/backend/web/index.php?r=hospital/doctor/index
 ```
 Resimler
 ---------------------------------
-![alt Yeni hasta kaydı:](https://resimlink.com/OEd2)
+![alt Yeni hasta kaydı:](<a href="https://resimlink.com/OEd2" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/OEd2.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>)
 
 Ekler
 ---------------------------------
