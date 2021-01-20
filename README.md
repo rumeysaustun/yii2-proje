@@ -8,67 +8,36 @@ Yii2-hastane
 
 Bu modül, hastane sitesi için birkaç widget sağlar. Bu projede, doktor ve hastayı birbirine bağlayan formlu tek bir widget vardır.
 
-Sanal Makine (Vagrant)
+Kurulumlar
 --------------------------------
 
 Sırasıyla aşağıdaki yazılımlar kurulmalı ve github token üretilmelidir.<br>
 1.[Virtualbox](https://www.virtualbox.org/wiki/Downloads)<br>
-2.[Vagrant](https://www.vagrantup.com/downloads)<br>
+2.[XAMPP](https://www.apachefriends.org/tr/download.html)(7.3.26 sürümü kullanılmıştır.)<br>
 3.[Git](https://www.git-scm.com/)<br>
 4.[GitHub API token](https://github.com/settings/tokens) Generate new token'a tıklayarak yeni bir token oluşturulmalıdır.<br>
 5.[Composer](https://getcomposer.org/)<br>
-6.Yönetici yetkileriyle terminal (komut satırı) açılarak aşağıdaki direktifler uygulanmalıdır.
+6.Composer'ı ve XAMPP'ı çalıştırdıktan sonra yönetici yetkileriyle terminal (komut satırı) açılarak aşağıdaki direktifler uygulanmalıdır. Yii2 şu komut ile kurulmalıdır:
 ```
-vagrant plugin install vagrant-hostmanager
+composer.phar create-project yiisoft/yii2-app-advanced advanced2
 ```
-7.vagrant-local.example.yml dosyasının vagrant-local.yml adıyla kopyası oluşturulmalıdır.
-8.GitHub api tokenı vagrant-local.yml dosyasında aşağıdaki şekilde tanımlanmalıdır.
+7.Aşağıdaki kod ile proje init edilmelidir. Development seçeneği ile ilerlenir.
 ```
-github_token: kopyalanan_token
+init
 ```
-9.Vagrant makina çalıştırılarak kurulum başlatlır. Komut portal dizininin içinde çalıştırılmalıdır.
-```
-vagrant up
-```
-10.Terminal'den (komut satırı) sanal makinaya SSH erişimi için;
-```
-vagrant ssh
-```
-11.İstenilen dizine gitmek için;
-```
-cd /vagrant/
-```
-
-Kurulum (Installation)
----------------------------------
-
-Proje kök klasöründe composer aracılığıyla çalıştırın:
-
+8.Packagist'ten proje aşağıdaki komutla çekilir.
 ```
 composer require rumeysaustun/yii2-hospital "dev-main"
 ```
-
+9.Aşağıdaki kod çalıştırılmalıdır.
 ```
-php yii migrate / up --migrationPath = vendor / rumeysaustun / yii2-hospital / migrations
+yii migrate/up
 ```
-
-Kurulum (Installation)
----------------------------------
-
-Proje kök klasöründe çalıştırın:
-
+10.Veritabanı işlemlerini yapabilmek için aşağıdaki kod girilmelidir.
 ```
-php composer rumeysaustun / yii2-hospital "@dev" gerektirir
+php yii migrate/up --migrationPath=vendor/rumeysaustun/yii2-hospital/migrations
 ```
-
-```
-php yii migrate / up --migrationPath = vendor / rumeysaustun / yii2-hospital / migrations
-```
-
-Yapılandırma (Config)
----------------------------------
-
-Ve bunu config'in modüller bölümüne ekleyin:
+11.Ve bunu backend/config/main.php'deki modules bölümüne ekleyin:
 
 ```
     'hospital' => [
@@ -76,7 +45,18 @@ Ve bunu config'in modüller bölümüne ekleyin:
         'adminRoles' => ['@'],
     ],
 ```
+Çalıştırma
+--------------------------------
+Aşağıdaki url'yi tarayıcınızın arama kısmına giriniz.
+```
+localhost/advanced2/backend/web/index.php?r=hospital/doctor/index
+```
+Resimler
+---------------------------------
+![alt Yeni hasta kaydı:](https://r.resimlink.com/OEd2.png)
 
+Ekler
+---------------------------------
 '@' olarak ayarlanırsa, yalnızca oturum açmış kullanıcılar bu modülü kullanabilir;
 
 '?' olarak ayarlanırsa yalnızca oturum açmamış kullanıcılar bu modülü kullanabilir;
