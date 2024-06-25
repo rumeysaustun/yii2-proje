@@ -1,6 +1,6 @@
 # Yii2 ile Hastane Widget Projesi
-Rumeysa ÜSTÜN   190202011 <br>
-Büşra Nur BAYSA 190202091
+*Rumeysa ÜSTÜN   190202011* <br>
+*Büşra Nur BAYSA 190202091*
 
 ==========
 
