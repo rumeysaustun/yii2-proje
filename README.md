@@ -1,9 +1,7 @@
-# yii2-proje
+# Yii2 ile Hastane Widget Projesi
 Rumeysa ÜSTÜN   190202011 <br>
 Büşra Nur BAYSA 190202091
 
-
-Yii2-hastane
 ==========
 
 Bu modül, hastane sitesi için birkaç widget sağlar. Bu projede, doktor ve hastayı birbirine bağlayan formlu tek bir widget vardır.
